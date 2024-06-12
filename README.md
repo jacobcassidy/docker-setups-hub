@@ -1,10 +1,10 @@
 # Docker Setups Hub
 
-This hub lists my various repositories containing Docker files for quickly setting up local servers for different development environments.
+This hub lists my different repositories containing Docker files for quickly setting up local servers for various development environments.
 
-## NGINX-Proxy Network Development Servers
+## NGINX-Proxy Network Development Server
 
-The following repositories use a [standalone NGINX Reverse-Proxy Docker network](https://github.com/jacobcassidy/docker-nginx-proxy-setup) that allows you to run multiple local servers simultaneously, all using unique local domain names on the standard 80 (HTTP) or 443 (HTTPS) ports. Which removes the need to manage port numbers, gives you clean domains to work from (no appended port number), and manages running your local domains on the HTTPS protocol with self-created TLS certificates:
+This repository sets up a [standalone NGINX Reverse-Proxy Docker network](https://github.com/jacobcassidy/docker-nginx-proxy-setup) that allows you to run multiple local servers simultaneously, all using unique local domain names on the standard 80 (HTTP) or 443 (HTTPS) ports. This removes the need to manage port numbers, gives you clean domains to work from (no appended port number), and manages running your local domains on the HTTPS protocol with self-created TLS certificates.
 
 ### PHP Development Servers
 
